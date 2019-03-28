@@ -1,29 +1,27 @@
 # Site settings
-title: Pointing to the Moon
-description: Blog of Yingkai Liu
+title: #Pointing to the Moon
+description: #DorcasLady Webpage
 baseurl: "" 
-url: "https://yk-liu.github.io" 
+url: #"https://dorcaslady.cn" 
 
 # GitHub User settings
-username: Yingkai Liu
-github_username: yk-liu
-user_description: A Physics undergrad with a broad interest
-user_title: Physics Undergraduate
-email: yingkai.liu@outlook.com
+username: # will.pan.zju@gmail.com
+github_username: #dorcaslady
+user_description: #AAAAA
+user_title: #BBBB
+email: #vpan@foxmail.com
 
 # Blog Author settings
 author:
-  name:           Yingkai Liu
+  name:           #DorcasLady
   picture:        
-  email:          yingkai.liu@outlook.com
-  description:    I'm a Physics undergrad with a broad interest.
+  email:          #vpan@foxmail.com
+  description:    #BBBBB
   twitter:
   facebook:
-  github:         https://github.com/yk-liu
+  github:         #https://github.com/dorcaslady
   linkedin:
-  # # If you're forking this site, make sure you delete this entry!
-  clustrmap:      MlqUzlcZFdHetSQuxml5oHyt9RwVjZrsGbvyaRpMwgU 
-  # If you're forking this site, make sure you delete this entry!
+  clustrmap:      #fill in you clustrmap string. 
 
 
 # markdown
