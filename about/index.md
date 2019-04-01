@@ -1,30 +1,18 @@
 ---
 title: About
 layout: info
-Edit: 2018-11-14
+Edit: 2019-04-01
 toc: false
 commentable: false
 protected: true
 mathjax: true
 ---
 
-# Me
+# 关于我们
 
-My name is Yingkai Liu. I am currently a senior undergraduate at Nankai University, China. I major in Physics. 
-
-With more understanding of physics, I found the theory used to describe a phenomenon is more and more elegant but in the same time complicated. I was happy about the differential equations, impressed by linear algebra, struck by group theory and now mesmerized by topology and differential geometry. **I am aware that physics requires much more than *just* mathematics. In the same time I believe that with more mathematics there will be deeper physics.** 
-
-As for my current interest, on my CV I wrote:
-
-> I am interested in the Topological properties of materials and the phenomenon of integer discreetness arising from continuous symmetry. In a different perspective, I am also interested in how particles subject to relatively simple laws can exhibit novel collective properties. I also like coding and enjoy sharing my thoughts.
-
-Here is my [CV](https://yk-liu.github.io/about/CV-of-Liu-Yingkai.pdf) (last update: 2018-11-17).
-
-# This Site
-
-When I started writing on this website, I wanted to share notes on what I have learned. I benefited a lot from many insightful blogs and now I have something to give back. Watching my notes published on websites also gives me motivation and a strange consolation. 
-
-I also realized that this website can be used as a billboard of my professional backgrounds. This is a great proof for what I have learned.
+>2018年，小牡花鹿成长计划启动。 美丽需要代价，我们做的是让代价最小，成效最高。当然，需要孤独的修炼。
+社区中心的商圈位置、美轮美奂的橱窗、体验感强面对面课程，这精心设计，保证了我们服务的质量。
+ (last update: 2019-04-01).
 
 # Posts
 
@@ -64,9 +52,9 @@ Additional licensing information can be found [here](https://github.com/yk-liu/y
 
 I mainly use [Typora](https://www.typora.io) to write my post.
 
-# The Name
+# 我们的名字
 
-I named this website "A Finger Pointing to the Moon", as in the Buddhism story:
+我们的名字小牡花鹿，英文名DorcasLady。
 
 > **佛告阿难。汝等尚以缘心听法。此法亦缘。非得法性。**
 >
@@ -74,10 +62,8 @@ I named this website "A Finger Pointing to the Moon", as in the Buddhism story:
 >
 > **岂唯亡指。亦复不识明之与暗。何以故。即以指体。为月明性。明暗二性。无所了故。**
 
-Which has been beautifully put by Bruce Lee:
 
->It's like a finger pointing away to the moon. Don't concentrate on the finger or you will all that heavenly glory.
-
-# Contact
-
-The best way to reach me is via email: $water$ @ $mail.nankai.edu.cn$
+# 联系方式
+> Lady张: 13510155101
+>
+> Lady袁: 15818520515

@@ -1,25 +1,25 @@
 # Site settings
-title: #Pointing to the Moon
+title: Dorcaslady Homepage
 description: #DorcasLady Webpage
 baseurl: "" 
-url: #"https://dorcaslady.cn" 
+url: "https://dorcaslady.cn" 
 
 # GitHub User settings
 username: # will.pan.zju@gmail.com
-github_username: #dorcaslady
+github_username: Dorcaslady
 user_description: #AAAAA
 user_title: #BBBB
-email: #vpan@foxmail.com
+email: vpan@foxmail.com
 
 # Blog Author settings
 author:
-  name:           #DorcasLady
+  name:           DorcasLady
   picture:        
   email:          #vpan@foxmail.com
   description:    #BBBBB
   twitter:
   facebook:
-  github:         #https://github.com/dorcaslady
+  github:         https://github.com/dorcaslady
   linkedin:
   clustrmap:      #fill in you clustrmap string. 
 
