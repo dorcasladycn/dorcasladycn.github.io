@@ -1,76 +1,150 @@
-# Site settings
-title: 小牡花鹿
-description: #DorcasLady Webpage
-baseurl: "" 
-url: "https://dorcaslady.cn" 
+# This is the default format.
+# For more see: http://jekyllrb.com/docs/permalinks/
+permalink: /:categories/:year/:month/:day/:title
 
-# GitHub User settings
-username: # will.pan.zju@gmail.com
-github_username: Dorcaslady
-user_description: #AAAAA
-user_title: #BBBB
-email: vpan@foxmail.com
-
-# Blog Author settings
-author:
-  name:           DorcasLady
-  picture:        
-  email:          #vpan@foxmail.com
-  description:    #BBBBB
-  twitter:
-  facebook:
-  github:         https://github.com/dorcaslady
-  linkedin:
-  clustrmap:      #fill in you clustrmap string. 
-
-
-# markdown
+exclude: [".rvmrc", ".rbenv-version", "README.md", "Rakefile", "changelog.md"]
+highlighter: null
 markdown: kramdown
-  
-kramdown:
- footnote_nr: 1
- entity_output: as_char
- # Jekyll 3 and GitHub Pages now only support rouge for syntax highlighting
- syntax_highlighter: rouge
- syntax_highlighter_opts:
-  # Use existing pygments syntax highlighting css
-  css_class: 'highlight'
- span:
-  line_numbers: false
- block:
-  line_numbers: true
-  start_line: 1
- 
-highlighter: rouge
-    
-plugins:
-  - jekyll-seo-tag
-  - jekyll-sitemap
-  
+extensions: [fenced_code_blocks]
+excerpt_separator: "<!--more-->"
+url: https://dorcaslady.com
+baseurl: ""
+# Themes are encouraged to use these universal variables
+# so be sure to set them if your theme uses them.
+#
 
-permalink: none
+#Google Ad Words Data from scripts code (using Google responsive options) and ad client
+#data-ad-slot: 2973388149
+#data-ad-client: ca-pub-9204963049240271
+#google_ad_client: ca-pub-9204963049240271
 
-defaults:
-  -
-    scope:
-      path: ""
-      type: "posts"
-    values:
-      toc: true
-      mathjax: true
-      mermaid: false
-      highlight: false
-      numbering: true
-      status: Completed
-      protected: false
-      commentable: true
-      rss: true
+post_limit: 5
 
 
-exclude:
- - LICENSE.md
- - README.md
- - "*.cdf"
- - "*.nb"
- - "*.bk"
- - "*.draft.md"
+title : DorcasLady
+tagline: 你的美丽健康管理专家
+author : 
+  name : Antonio Trento
+  site: https://dorcaslady.com
+  description : I&#39;m a web master interested in communication applied to web marketing.
+  image : social-image.png
+  email : dorcaslady@gmail.com
+  github : 
+  twitter : 
+  facebook: 
+  linkedin: 
+  instagram: 
+  pinterest: 
+  feedburner : 
+
+twitter_username: 
+# The production_url is only used when full-domain names are needed
+# such as sitemap.txt
+# Most places will/should use BASE_PATH to make the urls
+#
+# If you have set a CNAME (pages.github.com) set your custom domain here.
+# Else if you are pushing to username.github.io, replace with your username.
+# Finally if you are pushing to a GitHub project page, include the project name at the end.
+#
+production_url : https://dorcaslady.com
+
+# All Jekyll-Bootstrap specific configurations are namespaced into this hash
+#
+JB :
+  version : 0.3.0
+
+  # All links will be namespaced by BASE_PATH if defined.
+  # Links in your website should always be prefixed with {{BASE_PATH}}
+  # however this value will be dynamically changed depending on your deployment situation.
+  #
+  # CNAME (http://yourcustomdomain.com)
+  #   DO NOT SET BASE_PATH
+  #   (urls will be prefixed with "/" and work relatively)
+  #
+  # GitHub Pages (http://username.github.io)
+  #   DO NOT SET BASE_PATH
+  #   (urls will be prefixed with "/" and work relatively)
+  #
+  # GitHub Project Pages (http://username.github.io/project-name)
+  #
+  #   A GitHub Project site exists in the `gh-pages` branch of one of your repositories.
+  #  REQUIRED! Set BASE_PATH to: http://username.github.io/project-name
+  #
+  # CAUTION:
+  #   - When in Localhost, your site will run from root "/" regardless of BASE_PATH
+  #   - Only the following values are falsy: ["", null, false]
+  #   - When setting BASE_PATH it must be a valid url.
+  #     This means always setting the protocol (http|https) or prefixing with "/"
+  BASE_PATH : https://dorcaslady.com
+
+  # By default, the asset_path is automatically defined relative to BASE_PATH plus the enabled theme.
+  # ex: [BASE_PATH]/assets/themes/[THEME-NAME]
+  #
+  # Override this by defining an absolute path to assets here.
+  # ex:
+  #   http://s3.amazonaws.com/yoursite/themes/watermelon
+  #   /assets
+  #
+  ASSET_PATH : https://dorcaslady.com/assets/themes/bootstrap
+
+  # These paths are to the main pages Jekyll-Bootstrap ships with.
+  # Some JB helpers refer to these paths; change them here if needed.
+  #
+  archive_path: /archive.html
+  categories_path : /categories.html
+  tags_path : /tags.html
+  atom_path : /atom.xml
+  rss_path : /rss.xml
+
+  # Settings for comments helper
+  # Set 'provider' to the comment provider you want to use.
+  # Set 'provider' to false to turn commenting off globally.
+  #
+  comments :
+    provider : false
+    disqus : 
+      short_name : 
+    #livefyre :
+    #  site_id : 
+    #intensedebate :
+    #  account : 
+    #facebook :
+    #  appid :
+      num_posts: 5
+      width: 580
+      colorscheme: light
+
+  # Settings for analytics helper
+  # Set 'provider' to the analytics provider you want to use.
+  # Set 'provider' to false to turn analytics off globally.
+  #
+  analytics :
+    provider : false
+    google :
+        tracking_id : 
+    getclicky :
+      site_id :
+    mixpanel :
+        token : 
+    piwik :
+        baseURL :  # Piwik installation address (without protocol)
+        idsite : '1'                   # the id of the site on Piwik
+
+  # Settings for sharing helper.
+  # Sharing is for things like tweet, plusone, like, reddit buttons etc.
+  # Set 'provider' to the sharing provider you want to use.
+  # Set 'provider' to false to turn sharing off globally.
+  #
+  sharing :
+    provider : false
+
+  # Settings for all other include helpers can be defined by creating
+  # a hash with key named for the given helper. ex:
+  #
+  #   pages_list :
+  #     provider : "custom"
+  #
+  # Setting any helper's provider to 'custom' will bypass the helper code
+  # and include your custom code. Your custom file must be defined at:
+  #   ./_includes/custom/[HELPER]
+  # where [HELPER] is the name of the helper you are overriding.

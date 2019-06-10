@@ -1,6 +1,9 @@
-User-agent: *
-Disallow: /about/CV-of-Liu-Yingkai.pdf
-Disallow: /secret/
-Disallow: /secret
+User-Agent: *
+Disallow: 
+Disallow: /_includes/
+Disallow: /_drafts/
+Disallow: /_config.yml
+Disallow: /_layouts/
+Disallow: /_plugins/
 
-SITEMAP: https://yk-liu.github.io/sitemap.xml
+Sitemap: https://fullit.github.io/sitemap.txt
