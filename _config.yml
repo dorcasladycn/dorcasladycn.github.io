@@ -23,21 +23,21 @@ post_limit: 5
 
 title : DorcasLady
 tagline: 你的美丽健康管理专家
-author : 
-  name : 
+author :
+  name : DorcasLady
   site: https://dorcaslady.com
-  description : I&#39;m a web master interested in communication applied to web marketing.
+  description : 我是小牡花鹿 <br> 专注于美丽和健康 <br> 具有瑜伽RYT200培训认证资格 <br> 每一天 美一点
   image : social-image.png
   email : dorcaslady@gmail.com
-  github : 
-  twitter : 
-  facebook: 
-  linkedin: 
-  instagram: 
-  pinterest: 
-  feedburner : 
+  github :
+  twitter :
+  facebook:
+  linkedin:
+  instagram:
+  pinterest:
+  feedburner :
 
-twitter_username: 
+twitter_username:
 # The production_url is only used when full-domain names are needed
 # such as sitemap.txt
 # Most places will/should use BASE_PATH to make the urls
@@ -102,12 +102,12 @@ JB :
   #
   comments :
     provider : false
-    disqus : 
-      short_name : 
+    disqus :
+      short_name :
     #livefyre :
-    #  site_id : 
+    #  site_id :
     #intensedebate :
-    #  account : 
+    #  account :
     #facebook :
     #  appid :
       num_posts: 5
@@ -121,11 +121,11 @@ JB :
   analytics :
     provider : false
     google :
-        tracking_id : 
+        tracking_id :
     getclicky :
       site_id :
     mixpanel :
-        token : 
+        token :
     piwik :
         baseURL :  # Piwik installation address (without protocol)
         idsite : '1'                   # the id of the site on Piwik
