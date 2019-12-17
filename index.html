@@ -24,12 +24,12 @@ canonical: https://heliumjk.github.io
                 </ol>
                 <div class="carousel-inner" role="listbox">
                   <div class="carousel-item active">
-                    <img src="{{ BASE_PATH }}/assets/images/slider/banner.png" alt="">
+                    <img src="{{ BASE_PATH }}/assets/images/slider/banner.webp" alt="">
                     <div class="carousel-caption">
                       <h3 class="slide-title animated fadeInDown"><span class="text-primary"> DorcasLady </span> - 小牡花鹿 </h3>
-                      <h5 class="slide-text animated fadeIn"> 瑜伽&普拉提生活馆.</h5>
+                      <h5 class="slide-text animated fadeIn"> 瑜伽&普拉提 </h5>
                       <a href="https://www.styd.cn/m/99231ad1/shop/473723448?is_shared=1" class="btn btn-lg btn-default-filled animated fadeInUp"> 预约 </a>
-                      <a href="#features" class="btn btn-lg btn-common animated fadeInUp">关于我们</a>
+                      <a href="about" class="btn btn-lg btn-common animated fadeInUp">关于我们</a>
                     </div>
                   </div>
                   <div class="carousel-item">
@@ -37,7 +37,7 @@ canonical: https://heliumjk.github.io
                     <div class="carousel-caption">
                       <h3 class="slide-title animated fadeInDown"><span class="text-primary"> 团课私教 </span> </h3>
                       <h5 class="slide-text animated fadeIn"> 卓越的教练团队.</h5>
-                      <a href="#team" class="btn btn-lg btn-default-filled animated fadeInUp">了解更多</a>
+                      <a href="show" class="btn btn-lg btn-default-filled animated fadeInUp">了解更多</a>
                     </div>
                   </div>
                   <div class="carousel-item">
@@ -46,7 +46,7 @@ canonical: https://heliumjk.github.io
                       <h3 class="slide-title animated fadeInDown"><span class="text-primary"> 瑜伽教练培训 </span> 龙岗区唯一一家RYS认证机构 </h3>
                       <h5 class="slide-text animated fadeIn"> 宣传标语 </h5>
                       <a href="#coursebooking" class="btn btn-lg btn-default-filled animated fadeInUp"> 培训报名 </a>
-                      <a href="#training" class="btn btn-lg btn-common animated fadeInUp"> 了解更多 </a>
+                      <a href="college" class="btn btn-lg btn-common animated fadeInUp"> 了解更多 </a>
                     </div>
                   </div>
                 </div>
@@ -70,7 +70,7 @@ canonical: https://heliumjk.github.io
 	<div id="features" class="container">
 	<!-- SERVICES -->
             <div class="sub-title">
-              <span> 我们的优势 </span>
+              <span> 为什么选择我们？ </span>
             </div>
             <div class="row">
               <!-- Start Service Icon 1 -->
@@ -80,7 +80,7 @@ canonical: https://heliumjk.github.io
                     <i class="fa fa-cogs"></i>
                   </div>
                   <div class="service-content">
-                    <h4><a href="#"> 优势一 </a></h4>
+                    <h4><a href="#"> 专业 </a></h4>
                     <p>
                       优势一
                     </p>
@@ -96,7 +96,7 @@ canonical: https://heliumjk.github.io
                     <i class="fa fa-cubes"></i>
                   </div>
                   <div class="service-content">
-                    <h4><a href="#"> 优势二 </a></h4>
+                    <h4><a href="#"> 独一无二 </a></h4>
                     <p>
                       优势二
                     </p>
@@ -112,7 +112,7 @@ canonical: https://heliumjk.github.io
                     <i class="fa fa-tachometer"></i>
                   </div>
                   <div class="service-content">
-                    <h4><a href="#"> 优势三 </a></h4>
+                    <h4><a href="#"> 行业认可 </a></h4>
                     <p>
                      优势三
                     </p>
@@ -128,7 +128,7 @@ canonical: https://heliumjk.github.io
                     <i class="fa fa-check"></i>
                   </div>
                   <div class="service-content">
-                    <h4><a href="#"> 优势四 </a></h4>
+                    <h4><a href="#"> 打破传统 </a></h4>
                     <p>
                       优势四
                     </p>
@@ -144,7 +144,7 @@ canonical: https://heliumjk.github.io
                     <i class="fa fa-flash"></i>
                   </div>
                   <div class="service-content">
-                    <h4><a href="#"> 优势五 </a></h4>
+                    <h4><a href="#">  </a></h4>
                     <p>
                       优势五
                     </p>
@@ -172,52 +172,6 @@ canonical: https://heliumjk.github.io
 	    </div>
             <div class="mb-60"></div>
 
-	<!-- HEADER -->
-      <div class="header-style-3">
-        <div class="container">
-          <div class="row">
-            <div class="col-xs-12 col-sm-6">
-              <figure>
-                <img src="{{ BASE_PATH }}/assets/images/bg/hero-2.png" alt="">
-              </figure>
-            </div>
-            <div class="col-xs-12 col-sm-6">
-              <div class="hero-content-v2">
-                <h3> 更多展示 <strong> 更多展示 </strong></h3>
-                <a href="{{ BASE_PATH }}/components" class="btn btn-lg btn-default-filled animated fadeInUp"> 了解更多 </a>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-	<!-- END HEADER -->
-            <div class="mb-60"></div>
-
-      <div class="container">
-        <h4 class="sub-title space-left"> 花鹿社区 </h4>
-      </div>
-
-      <!-- posts carousel -->
-      <section id="blog">
-        <div class="container">
-          <div id="posts-carousel" class="owl-carousel">
-           {% for post in site.posts %}
-            <div class="blog-block blog block carousel-post">
-             {% if post.img %}
-              <img src="{{ BASE_PATH }}/assets/images/{{ post.img }}" alt="">
-             {% endif %}
-              <h5>{{ post.title }}</h5>
-              <p>{{ post.excerpt }}</p>
-              <a href="{{ BASE_PATH }}{{ post.url }}"> 全文 <i class="fa fa-arrow-right" aria-hidden="true"></i></a>
-            </div>
-           {% endfor %}
-          </div>
-        </div>
-      </section>
-
-
-      <div class="mb-60"></div>
-
       <!-- Team Members 04 -->
       <div class="container">
             <div class="team-members-tow mtb-50">
@@ -225,7 +179,7 @@ canonical: https://heliumjk.github.io
                 <span>花鹿导师</span>
               </div>
               <div class="row">
-                <div class="col-sm-6 col-md-3">
+                <div class="col-sm-6 col-md-4">
                   <!-- Team Item Starts -->
                   <figure>
                     <img src="{{ BASE_PATH }}/assets/images/teachers/jin.jpg" alt="">
@@ -233,7 +187,7 @@ canonical: https://heliumjk.github.io
                       <div class="overlay-text text-center">
                         <div class="info-text">
                           <strong>JIN</strong>
-                          <span>原名贺晋</span>
+                          <span>贺晋</span>
                         </div>
                         <hr class="small-divider border-white">
                        JIN，原名贺晋 <br> 吴式太极拳六代嫡传弟子 <br> 武林大会获奖者<br>
@@ -243,7 +197,7 @@ canonical: https://heliumjk.github.io
                   </figure>
                   <!-- Team Item Ends -->
                 </div>
-                <div class="col-sm-6 col-md-3">
+                <div class="col-sm-6 col-md-4">
                   <!-- Team Item Starts -->
                   <figure>
                     <img src="{{ BASE_PATH }}/assets/images/teachers/wys.jpg" alt="">
@@ -265,7 +219,7 @@ canonical: https://heliumjk.github.io
                   <!-- Team Item Ends -->
                 </div>
 
-                <div class="col-sm-6 col-md-3">
+                <div class="col-sm-6 col-md-4">
                   <!-- Team Item Starts -->
                   <figure>
                     <img src="{{ BASE_PATH }}/assets/images/teachers/gg.jpg" alt="">
@@ -285,27 +239,66 @@ canonical: https://heliumjk.github.io
                   <!-- Team Item Ends -->
                 </div>
 
-                <div class="col-sm-6 col-md-3">
+                <div class="col-sm-6 col-md-4">
                   <!-- Team Item Starts -->
                   <figure>
-                    <img src="{{ BASE_PATH }}/assets/images/team/team-08.jpg" alt="">
+                    <img src="{{ BASE_PATH }}/assets/images/teachers/gg.jpg" alt="">
                     <div class="image-overlay">
                       <div class="overlay-text text-center">
                         <div class="info-text">
-                          <strong>Danny Burton</strong>
-                          <span>Senior Designer</span>
+                          <strong>Wan</strong>
+                          <span>谢婉文</span>
                         </div>
                         <hr class="small-divider border-white">
-                        <ul class="social-icons">
-                          <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
-                          <li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
-                          <li><a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
-                        </ul>
+                    担任深圳知名瑜伽馆教师培训主讲师<br>
+                    举办多期维秘极速瘦身、普拉提特色课程<br>
+                    具有丰富的课程编排，纠正技巧经验<br>课程温婉细致<br>深受广大瑜伽爱好者的喜爱<br>热爱公益，热衷分享
                       </div>
                     </div>
                   </figure>
                   <!-- Team Item Ends -->
                 </div>
+
+                <div class="col-sm-6 col-md-4">
+                  <!-- Team Item Starts -->
+                  <figure>
+                    <img src="{{ BASE_PATH }}/assets/images/teachers/gg.jpg" alt="">
+                    <div class="image-overlay">
+                      <div class="overlay-text text-center">
+                        <div class="info-text">
+                          <strong>Angi</strong>
+                          <span>付红霞</span>
+                        </div>
+                        <hr class="small-divider border-white">
+                    担任深圳知名瑜伽馆教师培训主讲师<br>
+                    举办多期维秘极速瘦身、普拉提特色课程<br>
+                    具有丰富的课程编排，纠正技巧经验<br>课程温婉细致<br>深受广大瑜伽爱好者的喜爱<br>热爱公益，热衷分享
+                      </div>
+                    </div>
+                  </figure>
+                  <!-- Team Item Ends -->
+                </div>
+
+                <div class="col-sm-6 col-md-4">
+                  <!-- Team Item Starts -->
+                  <figure>
+                    <img src="{{ BASE_PATH }}/assets/images/teachers/gg.jpg" alt="">
+                    <div class="image-overlay">
+                      <div class="overlay-text text-center">
+                        <div class="info-text">
+                          <strong>Yilia</strong>
+                          <span>陈彦含</span>
+                        </div>
+                        <hr class="small-divider border-white">
+                    担任深圳知名瑜伽馆教师培训主讲师<br>
+                    举办多期维秘极速瘦身、普拉提特色课程<br>
+                    具有丰富的课程编排，纠正技巧经验<br>课程温婉细致<br>深受广大瑜伽爱好者的喜爱<br>热爱公益，热衷分享
+                      </div>
+                    </div>
+                  </figure>
+                  <!-- Team Item Ends -->
+                </div>
+
 
               </div>
             </div>
@@ -313,6 +306,30 @@ canonical: https://heliumjk.github.io
       <!-- End Team Members 04 -->
 
 
+            <div class="container">
+              <h4 class="sub-title space-left"> 花鹿社区 </h4>
+            </div>
+
+            <!-- posts carousel -->
+            <section id="blog">
+              <div class="container">
+                <div id="posts-carousel" class="owl-carousel">
+                 {% for post in site.posts %}
+                  <div class="blog-block blog block carousel-post">
+                   {% if post.img %}
+                    <img src="{{ BASE_PATH }}/assets/images/{{ post.img }}" alt="">
+                   {% endif %}
+                    <h5>{{ post.title }}</h5>
+                    <p>{{ post.excerpt }}</p>
+                    <a href="{{ BASE_PATH }}{{ post.url }}"> 全文 <i class="fa fa-arrow-right" aria-hidden="true"></i></a>
+                  </div>
+                 {% endfor %}
+                </div>
+              </div>
+            </section>
+
+
+            <div class="mb-60"></div>
 
 
        <img src="{{ BASE_PATH }}/assets/images/bottom.png" alt="">
